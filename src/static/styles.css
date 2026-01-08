@@ -74,6 +74,31 @@ section h3 {
   margin-bottom: 8px;
 }
 
+/* New: participants list styling */
+.participants {
+  margin-top: 12px;
+  padding-top: 8px;
+  border-top: 1px dashed #eee;
+}
+
+.participants-list {
+  list-style: disc;
+  margin: 8px 0 0 18px;
+  padding: 0;
+}
+
+.participant-item {
+  padding: 4px 0;
+  color: #333;
+  font-size: 14px;
+}
+
+/* Subtle muted style when there are no participants */
+.participant-item.none {
+  font-style: italic;
+  color: #777;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
